@@ -5,7 +5,7 @@ import { navItems } from "../../constants";
 
 const Navbar = () => {
     return (
-        <div className="flex w-full justify-between bg-bodyColor border-b-2 border-black items-center font-titleFont h-32">
+        <div className="flex w-full sticky top-0 z-50 justify-between bg-bodyColor border-b-2 border-black items-center font-titleFont h-32">
             <div>
                 <img src={logo} alt="logo" />
             </div>

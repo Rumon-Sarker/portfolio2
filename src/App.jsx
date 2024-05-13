@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
 import Projects from "./components/projects/Projects";
+import Skill from "./components/skill/Skill";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Banner></Banner>
         <Features></Features>
         <Projects></Projects>
+        <Skill></Skill>
       </div>
     </div>
   );

@@ -22,8 +22,10 @@ const LeftBanner = () => {
                 <span className="">a {text}</span>
                 <Cursor cursorColor='orange' />
             </h3>
-            <p className="text-base font-bodyFont leading-6 tracking-wid">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, temporibus possimus ad quod illo ipsum sapiente sit vitae sint tempore nemo! Nihil assumenda suscipit at quam nisi sequi nobis quisquam?</p>
-            <div className="flex justify-between">
+            {/* <p className="text-base font-bodyFont leading-6 tracking-wid">I am a junior Frontend developer in React & Nextjs.
+
+            </p> */}
+            <div className="flex justify-between mt-12">
                 <div>
                     <h1 className="text-3xl font-titleFont mb-5 uppercase">Fiend Me In</h1>
                     <div className="flex gap-8">

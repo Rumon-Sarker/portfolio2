@@ -5,7 +5,7 @@ const Skill = () => {
     return (
         <section id="skill" className="w-full py-20  border-b-2 border-b-black">
             <Title title="My Skill" desc="Developments Skills" />
-            <div className="md:flex items-center gap-8">
+            <div className="md:flex  md:gap-20">
                 <div className="mt-3 md:w-1/2 flex flex-col gap-6">
                     <SkillTem name="Html" value={90} />
                     <SkillTem name="Css" value={80} />
@@ -17,7 +17,7 @@ const Skill = () => {
                     <SkillTem name="Next js" value={75} />
                     <SkillTem name="node js" value={80} />
                     <SkillTem name="Gitub" value={85} />
-                    <SkillTem name="Tailwind css" value={85} />
+                    <SkillTem name="Tailwind css" value={80} />
                 </div>
             </div>
         </section>

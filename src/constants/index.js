@@ -16,8 +16,8 @@ export const navItems = [
     },
     {
         "id": 4,
-        title: "Testimonail",
-        link: "testaimonail"
+        title: "Testimonial",
+        link: "testaimonial"
     },
     {
         "id": 5,

@@ -2,7 +2,6 @@ import { Link } from "react-scroll";
 import { logo } from "../../assets";
 import { navItems } from "../../constants";
 
-
 const Navbar = () => {
     return (
         <div className="flex w-full sticky top-0 z-50 justify-between bg-bodyColor border-b-2 border-black items-center font-titleFont h-32">

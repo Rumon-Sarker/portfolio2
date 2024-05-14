@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
+import Footer from "./components/footer/Footer";
 import Projects from "./components/projects/Projects";
 import Skill from "./components/skill/Skill";
 import Testimonials from "./components/testimonails/Testimonials";
@@ -17,6 +18,7 @@ const App = () => {
         <Skill></Skill>
         <Testimonials></Testimonials>
         <Contact></Contact>
+        <Footer></Footer>
       </div>
     </div>
   );

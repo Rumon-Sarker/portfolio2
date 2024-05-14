@@ -4,7 +4,7 @@ import { contactImg } from "../../assets";
 const ContactLeft = () => {
     return (
         <div className="w-[35%] flex flex-col gap-5 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-ahadowOne">
-            <img className="w-full h-64 object-cover rounded-lg" src={contactImg} alt="contact" />
+            <img className="w-full h-64 object-cover rounded-lg bg-gray-700" src={contactImg} alt="contact" />
             <div className="flex flex-col gap-2">
                 <h2 className="text-xl font-bold text-white">Rumon Sarker</h2>
                 <p className="text-lg font-normal text-gray-400">

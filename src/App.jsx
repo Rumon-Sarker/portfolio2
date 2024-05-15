@@ -10,7 +10,7 @@ import Testimonials from "./components/testimonails/Testimonials";
 const App = () => {
   return (
     <div className="w-full h-auto text-lightText bg-bodyColor">
-      <div className="max-w-screen-2xl mx-auto px-16">
+      <div className="max-w-screen-xl mx-auto">
         <Navbar></Navbar>
         <Banner></Banner>
         <Features></Features>

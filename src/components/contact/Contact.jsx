@@ -10,7 +10,7 @@ const Contact = () => {
             className="w-full py-20 border-b-[1px] border-b-black">
             <Title title="Contact Now" desc="Contact Now with me" />
             <div className="full">
-                <div className="w-full h-auto flex justify-between">
+                <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
 
                     <ContactLeft></ContactLeft>
 

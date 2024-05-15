@@ -117,9 +117,9 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="w-full lg:w-[60%] h-full flex flex-col justify-between">
-                                <img className="w-20 lg:w-32" src={testimonialsIcon} alt="quote" />
-                                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lg:p-8 flex flex-col justify-center gap-4 lg:gap-8">
-                                    <div className="flex justify-between lg:items-center py-6 border-b-2 border-b-gray-900">
+                                <img className="w-12 md:w-28 lg:w-32" src={testimonialsIcon} alt="quote" />
+                                <div className="w-full h-[70%] py-1 md:py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lg:p-8 flex flex-col justify-center gap-4 lg:gap-8">
+                                    <div className="md:flex flex-col sm:flex-col justify-between lg:items-center py-6 border-b-2 border-b-gray-900">
                                         <div>
                                             <h3 className="text-xl lg:text-2xl font-medium tracking-wide">
                                                 Travel Mobile App Design.
@@ -162,9 +162,9 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="w-full lg:w-[60%] h-full flex flex-col justify-between">
-                                <img className="w-20 lg:w-32" src={testimonialsIcon} alt="quote" />
-                                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lg:p-8 flex flex-col justify-center gap-4 lg:gap-8">
-                                    <div className="flex justify-between lg:items-center py-6 border-b-2 border-b-gray-900">
+                                <img className="w-12 md:w-28 lg:w-32" src={testimonialsIcon} alt="quote" />
+                                <div className="w-full h-[70%] py-1 md:py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lg:p-8 flex flex-col justify-center gap-4 lg:gap-8">
+                                    <div className="md:flex flex-col sm:flex-col justify-between lg:items-center py-6 border-b-2 border-b-gray-900">
                                         <div>
                                             <h3 className="text-xl lg:text-2xl font-medium tracking-wide">
                                                 Web App Design.
@@ -207,9 +207,9 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="w-full lg:w-[60%] h-full flex flex-col justify-between">
-                                <img className="w-20 lg:w-32" src={testimonialsIcon} alt="quote" />
-                                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lg:p-8 flex flex-col justify-center gap-4 lg:gap-8">
-                                    <div className="flex justify-between lg:items-center py-6 border-b-2 border-b-gray-900">
+                                <img className="w-12 md:w-28 lg:w-32" src={testimonialsIcon} alt="quote" />
+                                <div className="w-full h-[70%] py-1 md:py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lg:p-8 flex flex-col justify-center gap-4 lg:gap-8">
+                                    <div className="md:flex flex-col sm:flex-col justify-between lg:items-center py-6 border-b-2 border-b-gray-900">
                                         <div>
                                             <h3 className="text-xl lg:text-2xl font-medium tracking-wide">
                                                 Agency Mobile App Design.

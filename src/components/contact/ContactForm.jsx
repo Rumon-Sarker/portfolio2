@@ -42,15 +42,15 @@ const ContactForm = () => {
     }
 
     return (
-        <div className="w-[60%] flex flex-col gap-5 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-ahadowOne">
+        <div className="w-full lgl:w-[60%] flex flex-col gap-5 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-ahadowOne">
             <form onClick={handaleMessage} className="w-full flex flex-col gap-5">
                 {
                     error ? <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-ahadowOne text-center text-red-400 text-base tracking-wide animate-bounce ">{error}</p>
                         : <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-ahadowOne text-center text-green-400 text-base tracking-wide animate-bounce ">{success}</p>
 
                 }
-                <div className="flex gap-6">
-                    <div className="w-1/2 flex flex-col gap-3">
+                <div className="lgl:flex-row flex flex-col gap-6">
+                    <div className="w-full lgl:w-1/2 flex flex-col gap-3">
                         <p className="text-sm text-gray-400 uppercase tracking-wide">
                             Your Name
                         </p>
@@ -60,7 +60,7 @@ const ContactForm = () => {
                             className={`${error === "User Name is Required" && "outline-designColor"} contactInput`}
                             type="text" />
                     </div>
-                    <div className="w-1/2 flex flex-col gap-3">
+                    <div className="w-full lgl:w-1/2 flex flex-col gap-3">
                         <p className="text-sm text-gray-400 uppercase tracking-wide">
                             Phone Number
                         </p>

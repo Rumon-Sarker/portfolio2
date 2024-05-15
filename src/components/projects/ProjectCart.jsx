@@ -2,7 +2,7 @@ import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const ProjectCart = ({ title, img, used, desc, liveLink, githubLink }) => {
     return (
-        <div className="w-full h-auto xl:py-10 p-2 rounded-lg shadow-ahadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100" >
+        <div className="w-full h-auto py-10 p-2 rounded-lg shadow-ahadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100" >
             <div className="w-full h-[80%] overflow-hidden rounded-lg">
                 <img className="w-full h-64 object-cover group-hover:scale-110 duration-500" src={img} alt="project" />
             </div>

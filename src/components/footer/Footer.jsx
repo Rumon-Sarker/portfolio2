@@ -8,11 +8,10 @@ import { logo } from '../../assets';
 const Footer = () => {
     return (
         <section className='w-full pt-20 h-auto border-b-2 border-black '>
-
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-5'>
                 <div className='w-full h-full flex flex-col gap-6'>
                     <img className='w-32' src={logo} alt="logo" />
-                    <div className="flex gap-8">
+                    <div className="flex gap-3 lgl:gap-8">
                         <a href="https://www.facebook.com/md.srrumon121" target="_blank">
                             <span className="bannerIocons"><FaFacebook /></span>
                         </a>

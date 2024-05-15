@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="flex w-full sticky top-0 z-50 justify-between bg-bodyColor border-b-2 border-black items-center font-titleFont h-32">
             <div>
-                <img src={logo} alt="logo" />
+                <img className="w-28 rounded-lg" src={logo} alt="logo" />
             </div>
             <div>
                 <ul className="flex gap-12 items-center">

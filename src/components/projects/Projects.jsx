@@ -15,6 +15,8 @@ const Projects = () => {
                 <ProjectCart
                     title="Green Cooffe House"
                     img={project1}
+                    liveLink="https://regal-kulfi-0f1697.netlify.app/"
+                    githubLink="https://github.com/Rumon-Sarker/coffee-house-client"
                     used={{ freamwork: "#Reactjs", stying: "#Tailwind", backend: "#Nodejs", dataBase: "#MongoDb" }}
                     desc={"It is an coffee house.The user will select the coffee of his choice and confirm it. Payments are made online here"}
 
@@ -22,12 +24,16 @@ const Projects = () => {
                 <ProjectCart
                     title="Diamond Shop"
                     img={project2}
+                    liveLink="https://capable-gecko-140d75.netlify.app"
+                    githubLink="https://github.com/Rumon-Sarker/diamond-client"
                     used={{ freamwork: "#Reactjs", stying: "#Tailwind", backend: "#Nodejs", dataBase: "#MongoDb" }}
                     desc="This project is a online Diamond shop.Any user select to product and add to cart.Product filtaring and searching avilable in this project."
                 />
                 <ProjectCart
                     title="Nextjs Todo app"
                     img={project3}
+                    liveLink="https://simple-nextjs-fullsatck-todo-app.vercel.app/"
+                    githubLink="https://github.com/Rumon-Sarker/simple-nextjs-fullsatck-todo-app"
                     used={{ freamwork: "#Nextjs", stying: "#Tailwind", dataBase: "#MongoDb" }}
                     desc="This is a todo application project.Users do the todo create marking and deleting in this todo.It is nextjs fullStack Project"
                 />

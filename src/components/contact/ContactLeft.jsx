@@ -1,4 +1,4 @@
-import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { contactImg } from "../../assets";
 
 const ContactLeft = () => {
@@ -16,9 +16,18 @@ const ContactLeft = () => {
             <div className="mt-5">
                 <h1 className="text-3xl font-titleFont mb-5 uppercase">Fiend Me In</h1>
                 <div className="flex gap-8">
-                    <span className="bannerIocons"><FaFacebook /></span>
-                    <span className="bannerIocons"><FaLinkedin /></span>
-                    <span className="bannerIocons"><FaTwitter /></span>
+                    <a href="https://www.facebook.com/md.srrumon121" target="_blank">
+                        <span className="bannerIocons"><FaFacebook /></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/md-rumon-sarker-589209241" target="_blank">
+                        <span className="bannerIocons"><FaLinkedin /></span>
+                    </a>
+                    <a href="https://twitter.com/Rumon_Sarker1" target="_blank">
+                        <span className="bannerIocons"><FaTwitter /></span>
+                    </a>
+                    <a href="https://github.com/Rumon-Sarker" target="_blank">
+                        <span className="bannerIocons"><FaGithub /></span>
+                    </a>
                 </div>
             </div>
         </div>

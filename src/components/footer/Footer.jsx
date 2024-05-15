@@ -3,6 +3,7 @@ import { FaFacebook, FaLinkedin, FaMailBulk, FaMailchimp, FaPhoneVolume, FaTwitt
 import { FaLocationPin, FaPhotoFilm } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
 import { Link } from 'react-scroll';
+import { logo } from '../../assets';
 
 const Footer = () => {
     return (
@@ -10,11 +11,17 @@ const Footer = () => {
 
             <div className='grid grid-cols-3 gap-5'>
                 <div className='w-full h-full flex flex-col gap-6'>
-                    <img className='w-32' src={""} alt="logo" />
+                    <img className='w-32' src={logo} alt="logo" />
                     <div className="flex gap-8">
-                        <span className="bannerIocons"><FaFacebook /></span>
-                        <span className="bannerIocons"><FaLinkedin /></span>
-                        <span className="bannerIocons"><FaTwitter /></span>
+                        <a href="https://www.facebook.com/md.srrumon121" target="_blank">
+                            <span className="bannerIocons"><FaFacebook /></span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/md-rumon-sarker-589209241" target="_blank">
+                            <span className="bannerIocons"><FaLinkedin /></span>
+                        </a>
+                        <a href="https://twitter.com/Rumon_Sarker1" target="_blank">
+                            <span className="bannerIocons"><FaTwitter /></span>
+                        </a>
                     </div>
                 </div>
                 <div className='w-full h-full'>

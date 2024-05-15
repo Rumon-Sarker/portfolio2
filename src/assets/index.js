@@ -1,4 +1,5 @@
 import logo from "../assets/images/logo.png";
+// import bannerImg1 from "../assets/images/bannerImg1.png";
 import bannerImg1 from "../assets/images/bannerImg1.png";
 import frontEnd from "../assets/images/developIcon/front-end.png";
 import mernIcon from "../assets/images/developIcon/mern.png";

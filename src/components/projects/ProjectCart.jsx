@@ -1,6 +1,6 @@
 import { FaGithub, FaGlobe } from "react-icons/fa";
 
-const ProjectCart = ({ title, img, used, desc }) => {
+const ProjectCart = ({ title, img, used, desc, liveLink, githubLink }) => {
     return (
         <div className="w-full h-auto py-10 p-2 rounded-lg shadow-ahadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100" >
             <div className="w-full h-[80%] overflow-hidden rounded-lg">
@@ -11,12 +11,16 @@ const ProjectCart = ({ title, img, used, desc }) => {
                     <div className="flex items-center justify-between">
                         <h1 className="text-2xl uppercase text-designColor font-bodyFont">{title}</h1>
                         <div className="flex gap-4">
-                            <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                                <FaGithub />
-                            </span>
-                            <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                                <FaGlobe />
-                            </span>
+                            <a target="_blank" href={githubLink}>
+                                <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                                    <FaGithub />
+                                </span>
+                            </a>
+                            <a target="_blank" href={liveLink}>
+                                <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                                    <FaGlobe />
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>

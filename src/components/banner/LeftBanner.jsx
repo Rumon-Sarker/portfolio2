@@ -1,4 +1,4 @@
-import { FaFacebook, FaJs, FaLinkedin, FaNode, FaReact, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaJs, FaLinkedin, FaNode, FaReact, FaTwitter } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 const LeftBanner = () => {
@@ -22,21 +22,27 @@ const LeftBanner = () => {
                 <span className="">a {text}</span>
                 <Cursor cursorColor='orange' />
             </h3>
-            {/* <p className="text-base font-bodyFont leading-6 tracking-wid">I am a junior Frontend developer in React & Nextjs.
-
-            </p> */}
-            <div className="flex justify-between mt-12">
+            <div className="md:flex justify-between mt-12">
                 <div>
                     <h1 className="text-3xl font-titleFont mb-5 uppercase">Fiend Me In</h1>
-                    <div className="flex gap-8">
-                        <span className="bannerIocons"><FaFacebook /></span>
-                        <span className="bannerIocons"><FaLinkedin /></span>
-                        <span className="bannerIocons"><FaTwitter /></span>
+                    <div className="flex gap-3">
+                        <a href="https://www.facebook.com/md.srrumon121" target="_blank">
+                            <span className="bannerIocons"><FaFacebook /></span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/md-rumon-sarker-589209241" target="_blank">
+                            <span className="bannerIocons"><FaLinkedin /></span>
+                        </a>
+                        <a href="https://twitter.com/Rumon_Sarker1" target="_blank">
+                            <span className="bannerIocons"><FaTwitter /></span>
+                        </a>
+                        <a href="https://github.com/Rumon-Sarker" target="_blank">
+                            <span className="bannerIocons"><FaGithub /></span>
+                        </a>
                     </div>
                 </div>
                 <div>
                     <h1 className="text-3xl font-titleFont mb-5 uppercase">My Best Skill</h1>
-                    <div className="flex gap-8">
+                    <div className="flex gap-4">
                         <span className="bannerIocons"><FaReact /></span>
                         <span className="bannerIocons"><FaJs /></span>
                         <span className="bannerIocons"><RiNextjsFill /></span>

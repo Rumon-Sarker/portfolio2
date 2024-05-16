@@ -18,3 +18,7 @@
 .active {
     color: #ff4500;
 }
+
+.scrolbar_hide::-webkit-scrollbar {
+    display: none;
+}

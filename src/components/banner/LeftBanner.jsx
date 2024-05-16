@@ -12,7 +12,7 @@ const LeftBanner = () => {
 
     });
     return (
-        <div className="lgl:w-1/2 w-full flex flex-col gap-20 md:border-l-2 border-designColor">
+        <div className="lgl:w-1/2 w-full flex flex-col gap-20 md:border-l-2 md:pl-4 border-designColor">
             <div className="flex flex-col gap-5">
                 <h3 className="font-bodyFont  text-xl"> You are Welcome</h3>
                 <h1 className="text-6xl font-bold text-white">

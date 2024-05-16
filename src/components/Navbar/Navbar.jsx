@@ -44,7 +44,7 @@ const Navbar = () => {
                             <div>
                                 <img className="w-20 rounded-lg" src={logo} alt="logo" />
                             </div>
-                            <span className="absolute top-4 right-4 text-gray-500 hover:text-designColor duration-500 pt-4 text-2xl font-semibold font-titleFont  cursor-pointer">
+                            <span onClick={() => setShowMenu(false)} className="absolute top-4 right-4 text-gray-500 hover:text-designColor duration-500 pt-4 text-2xl font-semibold font-titleFont  cursor-pointer">
                                 {/* X */}
                                 <MdClose />
                             </span>
